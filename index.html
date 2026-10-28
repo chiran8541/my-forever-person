@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Happy birthday, my love 💖</title>
+  <meta name="theme-color" content="#ffb6d1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bunting" aria-hidden="true"></div>
+  <div class="floaters" id="floaters" aria-hidden="true"></div>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="balloons" aria-hidden="true"><span>🎈</span><span>🎀</span><span>🎈</span></div>
+    <p class="hero-small">🎂 It's your day 🎂</p>
+    <h1 class="hero-title">Happy birthday,<br /><span id="herName">my love</span></h1>
+    <p class="hero-sub" id="herSub"></p>
+    <a href="#first" class="btn">Open your birthday gift 🎁</a>
+    <div class="scroll-hint" aria-hidden="true">↓</div>
+  </header>
+
+  <!-- First photo -->
+  <section id="first" class="section">
+    <h2>Our very first photo</h2>
+    <p class="caption-top" id="firstCaption"></p>
+    <figure class="polaroid big reveal" id="firstPhoto"></figure>
+  </section>
+
+  <!-- Together -->
+  <section class="section alt">
+    <h2>Us, together 💞</h2>
+    <p class="caption-top">My favourite place in the whole world is next to you.</p>
+    <div class="grid reveal" id="togetherGrid"></div>
+  </section>
+
+  <!-- Events -->
+  <section class="section">
+    <h2>Memories I celebrate today</h2>
+    <p class="caption-top">Every moment with you is a gift, and today I get to say thank you.</p>
+    <div id="events"></div>
+  </section>
+
+  <!-- Letter -->
+  <section class="section alt">
+    <h2>A birthday note from your future husband 💌</h2>
+    <div class="letter reveal" id="letter"></div>
+  </section>
+
+  <!-- Finale -->
+  <section class="section finale">
+    <h2>Make a wish 🎂</h2>
+    <p class="caption-top">Close your eyes, think of a wish, then blow out the candles.</p>
+    <div class="cake" id="cake" aria-hidden="true">
+      <div class="candles"><i><b></b></i><i><b></b></i><i><b></b></i></div>
+      <div class="tier t1"></div><div class="tier t2"></div><div class="plate"></div>
+    </div>
+    <button class="btn big-btn" id="surprise">Blow out the candles 🕯️</button>
+    <p class="finale-msg" id="finaleMsg"></p>
+  </section>
+
+  <footer>Happy birthday, my love. Made with all my love, just for you 💖</footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lb-close" aria-label="Close">×</button>
+    <img id="lbImg" alt="" />
+    <p id="lbCap"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
